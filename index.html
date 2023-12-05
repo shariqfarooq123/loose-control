@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
   <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+  <meta property="og:url" content="URL OF THE WEBSITE" />
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
 
   <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
@@ -26,15 +27,13 @@
 
   <title>LooseControl</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -61,6 +60,7 @@
   <!-- <link rel="preload" href="static/scenes/lamp2/gen/8.png" as="image"> -->
 
 </head>
+
 <body>
 
 
@@ -72,11 +72,12 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">Additional Materials</h1>
-            <h1 class="title is-1 publication-title"><span style="font-variant-caps:small-caps;">LooseControl: </span>Lifting ControlNet for Generalized Depth Conditioning </h1>
+            <h1 class="title is-1 publication-title"><span style="font-variant-caps:small-caps;">LooseControl:
+              </span>Lifting ControlNet for Generalized Depth Conditioning </h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <!-- <span class="author-block"> -->
-                <!-- <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+              <!-- <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
                 <span class="author-block">
                   <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
                   <span class="author-block">
@@ -91,8 +92,8 @@
 
                   <div class="column has-text-centered">
                     <div class="publication-links"> -->
-                         <!-- Arxiv PDF link -->
-                      <!-- <span class="link-block">
+              <!-- Arxiv PDF link -->
+              <!-- <span class="link-block">
                         <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
@@ -102,19 +103,19 @@
                       </a>
                     </span> -->
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_materials.pdf" target="_blank"
+              <!-- Supplementary PDF link -->
+              <span class="link-block">
+                <!-- <a href="static/pdfs/supplementary_materials.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
                       <span>Supplementary</span>
-                    </a>
-                  </span>
+                    </a> -->
+              </span>
 
-                  <!-- Github link -->
-                  <!-- <span class="link-block">
+              <!-- Github link -->
+              <!-- <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -124,8 +125,8 @@
                   </a>
                 </span> -->
 
-                <!-- ArXiv abstract Link -->
-                <!-- <span class="link-block">
+              <!-- ArXiv abstract Link -->
+              <!-- <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -140,57 +141,53 @@
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-  
-
-<!-- Teaser video-->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3 has-text-centered">3D Box Editing</h2>
-      <h2 class="subtitle has-text-centered">
-        Our 3D Box Editing allows users to interactively edit the 3D boxes representing objects in the scene.
-        Users can change the position, size, and orientation of 3D boxes as well as modify their shape by splitting, sculpting etc.
-        Our UI (to-be-released) is designed to be intuitive and easy to use, allowing users to quickly create and edit the scenes to their liking.
-      </h2>
-      <div class="box-videos">
-      <video poster="" id="sofa_deform" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/sofa_deform.mp4"
-        type="video/mp4">
-      </video>
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/pandas_v1.mp4"
-        type="video/mp4">
-      </video>
-      <video poster="" id="sofa_chair" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/sofa_chair.mp4"
-        type="video/mp4">
-      </video>
-      <video poster="" id="palms" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/palms_v2.mp4"
-        type="video/mp4">
-      </video>
-      <video poster="" id="leather_chair" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/leather_chair.mp4"
-        type="video/mp4">
-      </video>
-      <video poster="" id="ferrari" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/ferrari.mp4"
-        type="video/mp4">
-      </video>
     </div>
+  </section>
+
+
+
+  <!-- Teaser video-->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3 has-text-centered">3D Box Editing</h2>
+        <h2 class="subtitle has-text-centered">
+          Our 3D Box Editing allows users to interactively edit the 3D boxes representing objects in the scene.
+          Users can change the position, size, and orientation of 3D boxes as well as modify their shape by splitting,
+          sculpting etc.
+          Our UI (to-be-released) is designed to be intuitive and easy to use, allowing users to quickly create and edit
+          the scenes to their liking.
+        </h2>
+        <div class="box-videos">
+          <video poster="" id="sofa_deform" autoplay controls muted loop height="100%">
+            <!-- Your video here -->
+            <source src="static/videos/sofa_deform.mp4" type="video/mp4">
+          </video>
+          <video poster="" id="tree" autoplay controls muted loop height="100%">
+            <!-- Your video here -->
+            <source src="static/videos/pandas_v1.mp4" type="video/mp4">
+          </video>
+          <video poster="" id="sofa_chair" autoplay controls muted loop height="100%">
+            <!-- Your video here -->
+            <source src="static/videos/sofa_chair.mp4" type="video/mp4">
+          </video>
+          <video poster="" id="palms" autoplay controls muted loop height="100%">
+            <!-- Your video here -->
+            <source src="static/videos/palms_v2.mp4" type="video/mp4">
+          </video>
+          <video poster="" id="leather_chair" autoplay controls muted loop height="100%">
+            <!-- Your video here -->
+            <source src="static/videos/leather_chair.mp4" type="video/mp4">
+          </video>
+          <video poster="" id="ferrari" autoplay controls muted loop height="100%">
+            <!-- Your video here -->
+            <source src="static/videos/ferrari.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
-<!-- End teaser video -->
+  </section>
+  <!-- End teaser video -->
 
 
   <!-- babylonjs -->
@@ -204,7 +201,7 @@
               <p class="has-text-centered has-text-weight-semibold hast-text-family-primary">Source Image</p>
               <img src="static/scenes/lamp2/gen/0.png">
             </div>
-            <div class="interactive-image" >
+            <div class="interactive-image">
               <img class="drag-pointer should-animate" src="static/images/drag-and-drop.png" />
               <p class="has-text-centered has-text-weight-semibold hast-text-family-primary">Interactive Image</p>
               <div class="babylonContainer">
@@ -231,13 +228,13 @@
       </div>
     </div>
   </section>
-  
+
   <!-- <div class="container m-3"> -->
   <!-- </div> -->
   <!-- End babylonjs -->
 
-<!-- Paper abstract -->
-<!-- <section class="section hero is-light">
+  <!-- Paper abstract -->
+  <!-- <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -251,254 +248,257 @@
     </div>
   </div>
 </section> -->
-<!-- End paper abstract -->
+  <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3 has-text-centered">Additional Results: Scene Boundary Control</h2>
-      <div class="label-container">
-        <div class="columns is-mobile">
-          <div class="column has-text-centered is-one-third ">
-            Input
-          </div>
-          <div class="column has-text-centered is-one-third">
-            ControlNet
-          </div>
-          <div class="column has-text-centered is-one-third">
-            Ours
-          </div>
-        </div>
-      </div>
-      <div id="results-carousel-scene-boundary" class="carousel results-carousel">
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_layout_results/artist_studio/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          An artist's studio with canvases in progress, paintbrushes, and a large north-facing window for natural light.
-        </h2>
-      </div>
-
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_layout_results/rain_forest_bedroom/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          A full-blown rainforest in a bedroom, with plants lying on the bed
-        </h2>
-      </div>
-
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_layout_results/cabin_fireplace_deer/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          A cozy cabin interior with a stone fireplace, fur rugs, sofas, and a mounted deer head above the mantle.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_layout_results/child_playroom/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          A child's playroom with a whimsical mural, a teepee tent, and an assortment of toys scattered about.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_layout_results/dining_room_ship/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          A dining room that replicates the deck of a ship, complete with portholes and a gentle rocking mechanism to simulate waves.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_layout_results/fireplace_bathroom/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          A fireplace in a bathroom, with a cozy fire crackling next to a clawfoot tub.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_layout_results/foyer/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          A grand foyer with a sweeping staircase and fresh flowers on a console table.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_layout_results/high_tech_office/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          A high-tech home office with multiple monitors, a standing desk, and smart home gadgets.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_layout_results/library/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          A cozy library corner with a wingback chair, a floor lamp, and walls lined with bookshelves filled to the brim.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_layout_results/music_room/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          A music room with a grand piano, a collection of guitars on the wall, and a velvet chaise lounge.
-        </h2>
-      </div>
-
-
-
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container carousel-container">
-      <h2 class="title is-3 has-text-centered">Additional Results: 3D Box Control</h2>
-      <div class="label-container">
-        <div class="columns is-mobile">
-          <div class="column has-text-centered is-one-third ">
-            Input
-          </div>
-          <div class="column has-text-centered is-one-third">
-            ControlNet
-          </div>
-          <div class="column has-text-centered is-one-third">
-            Ours
+  <!-- Image carousel -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3 has-text-centered">Additional Results: Scene Boundary Control</h2>
+        <div class="label-container">
+          <div class="columns is-mobile">
+            <div class="column has-text-centered is-one-third ">
+              Input
+            </div>
+            <div class="column has-text-centered is-one-third">
+              ControlNet
+            </div>
+            <div class="column has-text-centered is-one-third">
+              Ours
+            </div>
           </div>
         </div>
-      </div>
-      <div id="results-carousel-box" class="carousel results-carousel">
+        <div id="results-carousel-scene-boundary" class="carousel results-carousel">
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_layout_results/artist_studio/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              An artist's studio with canvases in progress, paintbrushes, and a large north-facing window for natural
+              light.
+            </h2>
+          </div>
 
-        <div class="item">
-          <!-- Your image here -->
-          <img src="static/additional_box_results/penguin/comparison.png" alt="MY ALT TEXT"/>
-          <h2 class="subtitle has-text-centered">
-            A single penguin standing on an ice floe with the Antarctic landscape in the backdrop.
-          </h2>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_layout_results/rain_forest_bedroom/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A full-blown rainforest in a bedroom, with plants lying on the bed
+            </h2>
+          </div>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_layout_results/cabin_fireplace_deer/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A cozy cabin interior with a stone fireplace, fur rugs, sofas, and a mounted deer head above the mantle.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_layout_results/child_playroom/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A child's playroom with a whimsical mural, a teepee tent, and an assortment of toys scattered about.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_layout_results/dining_room_ship/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A dining room that replicates the deck of a ship, complete with portholes and a gentle rocking mechanism
+              to simulate waves.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_layout_results/fireplace_bathroom/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A fireplace in a bathroom, with a cozy fire crackling next to a clawfoot tub.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_layout_results/foyer/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A grand foyer with a sweeping staircase and fresh flowers on a console table.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_layout_results/high_tech_office/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A high-tech home office with multiple monitors, a standing desk, and smart home gadgets.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_layout_results/library/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A cozy library corner with a wingback chair, a floor lamp, and walls lined with bookshelves filled to the
+              brim.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_layout_results/music_room/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A music room with a grand piano, a collection of guitars on the wall, and a velvet chaise lounge.
+            </h2>
+          </div>
+
+
+
         </div>
+      </div>
+    </div>
+  </section>
+  <!-- End image carousel -->
 
-        <div class="item">
-          <!-- Your image here -->
-          <img src="static/additional_box_results/kangaroos_snow/comparison.png" alt="MY ALT TEXT"/>
-          <h2 class="subtitle has-text-centered">
-            Kangaroos hopping through a snowy landscape.
-          </h2>
+
+  <!-- Image carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container carousel-container">
+        <h2 class="title is-3 has-text-centered">Additional Results: 3D Box Control</h2>
+        <div class="label-container">
+          <div class="columns is-mobile">
+            <div class="column has-text-centered is-one-third ">
+              Input
+            </div>
+            <div class="column has-text-centered is-one-third">
+              ControlNet
+            </div>
+            <div class="column has-text-centered is-one-third">
+              Ours
+            </div>
+          </div>
         </div>
+        <div id="results-carousel-box" class="carousel results-carousel">
 
-        <div class="item">
-          <!-- Your image here -->
-          <img src="static/additional_box_results/snowman_beach/comparison.png" alt="MY ALT TEXT"/>
-          <h2 class="subtitle has-text-centered">
-            A snowman standing in the middle of a sandy beach under the hot sun.
-          </h2>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_box_results/penguin/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A single penguin standing on an ice floe with the Antarctic landscape in the backdrop.
+            </h2>
+          </div>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_box_results/kangaroos_snow/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Kangaroos hopping through a snowy landscape.
+            </h2>
+          </div>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_box_results/snowman_beach/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A snowman standing in the middle of a sandy beach under the hot sun.
+            </h2>
+          </div>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_box_results/palm_tree_snowy/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A palm tree with coconuts in the midst of a snowy forest clearing.
+            </h2>
+          </div>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_box_results/pandas_under_water/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Two pandas standing underwater on the bottom of the ocean.
+            </h2>
+          </div>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_box_results/paraglider/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              A paraglider soaring above a mountain range with the setting sun casting a golden glow.
+            </h2>
+          </div>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_box_results/astronaut/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Astronauts floating in space with earth in the background.
+            </h2>
+          </div>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_box_results/penguins_desert/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Penguins in a desert.
+            </h2>
+          </div>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_box_results/corals/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Vibrant corals with a variety of tropical fish and sunlight filtering through water.
+            </h2>
+          </div>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_box_results/robots/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Two robots.
+            </h2>
+          </div>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/additional_box_results/divers/comparison.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Divers submerged near a coral reef.
+            </h2>
+          </div>
+
         </div>
-        
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_box_results/palm_tree_snowy/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          A palm tree with coconuts in the midst of a snowy forest clearing.
-        </h2>
       </div>
-
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_box_results/pandas_under_water/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Two pandas standing underwater on the bottom of the ocean.
-        </h2>
-      </div>
-      
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_box_results/paraglider/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          A paraglider soaring above a mountain range with the setting sun casting a golden glow.
-        </h2>
-      </div>
-
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_box_results/astronaut/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Astronauts floating in space with earth in the background.
-        </h2>
-      </div>
-      
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_box_results/penguins_desert/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Penguins in a desert.
-        </h2>
-      </div>
-
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_box_results/corals/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Vibrant corals with a variety of tropical fish and sunlight filtering through water.
-        </h2>
-      </div>
-
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_box_results/robots/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Two robots.
-        </h2>
-      </div>
-      
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/additional_box_results/divers/comparison.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Divers submerged near a coral reef.
-        </h2>
-      </div>
-
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
+    </div>
+  </section>
+  <!-- End image carousel -->
 
 
 
 
-<!-- Youtube video -->
-<!-- <section class="hero is-small is-light">
+  <!-- Youtube video -->
+  <!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container"> -->
-      <!-- Paper video. -->
-      <!-- <h2 class="title is-3 has-text-centered">Video Presentation</h2>
+  <!-- Paper video. -->
+  <!-- <h2 class="title is-3 has-text-centered">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
           <div class="publication-video"> -->
-            <!-- Youtube embed code here -->
-            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <!-- Youtube embed code here -->
+  <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section> -->
-<!-- End youtube video -->
+  <!-- End youtube video -->
 
 
 
 
 
 
-<!-- Paper poster -->
-<!-- <section class="hero is-small is-light">
+  <!-- Paper poster -->
+  <!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -509,42 +509,47 @@
       </div>
     </div>
   </section> -->
-<!--End paper poster -->
+  <!--End paper poster -->
 
 
-<!--BibTex citation -->
+  <!--BibTex citation -->
   <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
 </section> -->
-<!--End BibTex citation -->
+  <!--End BibTex citation -->
 
 
-<footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
 
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the of this website, we just ask that you link back to this page in the footer.
+              <br> This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
 
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+  <!-- Statcounter tracking code -->
 
-    <!-- End of Statcounter Code -->
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
-  </body>
-  </html>
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
