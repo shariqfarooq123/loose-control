@@ -1,0 +1,285 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+.link-block a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+
+/* .publication-title {
+} */
+
+.publication-banner {
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+/* .publication-header .hero-body {
+} */
+
+.publication-title {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-venue {
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+/* .publication-authors {
+} */
+
+/* .publication-authors a {
+   color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+} */
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  padding: 20px;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+.slider-pagination .slider-page {
+  background: #000000;
+}
+
+.eql-cntrb { 
+  font-size: smaller;
+}
+
+/* canvas {
+  background: transparent;
+  width: 512px;
+  height: 512px;
+} */
+
+.babylonContainer {
+  width: 512px;
+  height: 512px;
+  position: relative;
+}
+
+.babylonContainer > .foreground {
+  width: 512px;
+  height: 512px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: transparent;
+  cursor: pointer;
+}
+
+.babylonContainer > .background {
+  width: 512px;
+  height: 512px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-size: cover;
+}
+
+.interactive-card {
+  margin: 1rem auto;
+  width: fit-content;
+  background-color: #dfe6e9;
+  /* background-color: #60778d; */
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: center;
+  border-radius: 3%;
+  z-index: 98;
+  max-width: 1200x;
+}
+
+.source-image {
+  max-width: 128px;
+  margin: auto 2rem;
+}
+
+.interactive-image {
+  position: relative;
+  z-index: 99;
+}
+
+.drag-pointer {
+  max-width: 64px;
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  left: 50%;
+  display: none;
+}
+
+.drag-pointer.animated {
+  display: block;
+  animation: pulse 1s both 1;
+  z-index: 99;
+  transform: translateX(-50%) opacity(1);
+}
+
+@keyframes pulse {
+  from {
+    transform: translateX(0%) scale(1);
+    opacity: 1;
+    z-index: 99;
+    display: block;
+  }
+  50% {
+    transform: translateX(-100%) scale(1);
+    opacity: 1;
+  }
+  75% {
+    transform: translateX(75%) scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%) scale(1);
+    opacity: 0;
+    z-index: -1;
+    display: none;
+  }
+}
+
+.box-videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.box-videos video {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.label-container {
+  position: absolute;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .babylonContainer {
+    width: 128px;
+    height: 128px;
+    position: relative;
+  }
+  
+  .babylonContainer > .foreground {
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .babylonContainer > .background {
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-size: cover;
+  }
+  
+}

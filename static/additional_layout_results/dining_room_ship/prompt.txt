@@ -1,0 +1,1 @@
+A dining room that replicates the deck of a ship, complete with portholes and a gentle rocking mechanism to simulate waves.
