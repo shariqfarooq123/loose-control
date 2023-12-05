@@ -71,80 +71,118 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Additional Materials</h1>
             <h1 class="title is-1 publication-title"><span style="font-variant-caps:small-caps;">LooseControl:
               </span>Lifting ControlNet for Generalized Depth Conditioning </h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
-              <!-- <span class="author-block"> -->
-              <!-- <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+              <span class="author-block">
+                <a href="https://shariqfarooq123.github.io/" target="_blank">Shariq Farooq Bhat</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/" target="_blank">Niloy J. Mitra</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="https://peterwonka.net/" target="_blank">Peter Wonka</a><sup>1</sup>
+              </span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1 </sup>KAUST</span>
+              <span class="author-block"> </span>
+              <span class="author-block"><sup>2 </sup>UCL</span>
+              <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links"> -->
-              <!-- Arxiv PDF link -->
-              <!-- <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span> -->
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
 
-              <!-- Supplementary PDF link -->
-              <span class="link-block">
+                <!-- Supplementary PDF link -->
+                <!-- <span class="link-block"> -->
                 <!-- <a href="static/pdfs/supplementary_materials.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
+                    class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
                       <span>Supplementary</span>
                     </a> -->
-              </span>
+                <!-- </span> -->
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="#" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv (Coming Soon)</span>
+                  </a>
+                </span>
 
-              <!-- Github link -->
-              <!-- <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="#" target="_blank" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Code (Coming Soon)</span>
                   </a>
-                </span> -->
+                </span>
+                <span class="link-block">
+                  <a href="#" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      🤗
+                    </span>
+                    <span> Demo (Coming Soon)</span>
+                  </a>
+                </span>
 
-              <!-- ArXiv abstract Link -->
-              <!-- <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span> -->
-
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
   </section>
 
-
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3 has-text-centered">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              We present <span style="font-variant-caps:small-caps;">LooseControl</span> to allow generalized depth
+              conditioning for diffusion-based image generation. ControlNet,
+              the SOTA for depth-conditioned image generation, produces remarkable results but relies on having access
+              to detailed depth maps for guidance. Creating such exact depth maps, in many scenarios, is challenging.
+              This paper introduces a generalized version of depth conditioning that enables many new content-creation
+              workflows. Specifically, we allow (C1) scene boundary control for loosely specifying scenes with only
+              boundary conditions, and (C2) 3D box control for specifying layout locations of the target objects rather
+              than the exact shape and appearance of the objects. Using <span
+                style="font-variant-caps:small-caps;">LooseControl</span>, along with text guidance, users can
+              create complex environments (e.g., rooms, street views, etc.) by specifying only scene boundaries and
+              locations of primary objects. Further, we provide two editing mechanisms to refine the results: (E1) 3D
+              box editing enables the user to refine images by changing, adding, or removing boxes while freezing the
+              style of the image. This yields minimal changes apart from changes induced by the edited boxes.
+              (E2) Attribute editing proposes possible editing directions to change one particular aspect of the scene,
+              such as the overall object density or a particular object. Extensive tests and comparisons with baselines
+              demonstrate the generality of our method. We believe that <span
+                style="font-variant-caps:small-caps;">LooseControl</span> can become an important design tool for
+              easily creating complex environments and be extended to other forms of guidance channels.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
 
   <!-- Teaser video-->
   <section class="hero is-small">
@@ -233,29 +271,13 @@
   <!-- </div> -->
   <!-- End babylonjs -->
 
-  <!-- Paper abstract -->
-  <!-- <section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3 has-text-centered">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-  <!-- End paper abstract -->
 
 
   <!-- Image carousel -->
   <section class="hero is-small is-light">
     <div class="hero-body">
       <div class="container">
-        <h2 class="title is-3 has-text-centered">Additional Results: Scene Boundary Control</h2>
+        <h2 class="title is-3 has-text-centered">Scene Boundary Control</h2>
         <div class="label-container">
           <div class="columns is-mobile">
             <div class="column has-text-centered is-one-third ">
@@ -359,7 +381,7 @@
   <section class="hero is-small">
     <div class="hero-body">
       <div class="container carousel-container">
-        <h2 class="title is-3 has-text-centered">Additional Results: 3D Box Control</h2>
+        <h2 class="title is-3 has-text-centered">3D Box Control</h2>
         <div class="label-container">
           <div class="columns is-mobile">
             <div class="column has-text-centered is-one-third ">
@@ -547,7 +569,23 @@
   <!-- Statcounter tracking code -->
 
   <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
+  <!-- Default Statcounter code for Loose Control
+https://shariqfarooq123.github.io/loose-control/ -->
+  <!-- Default Statcounter code for Loose Control
+https://shariqfarooq123.github.io/loose-control/ -->
+  <script type="text/javascript">
+    var sc_project = 12946702;
+    var sc_invisible = 1;
+    var sc_security = "3bad679f"; 
+  </script>
+  <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+  <noscript>
+    <div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img
+          class="statcounter" src="https://c.statcounter.com/12946702/0/3bad679f/1/" alt="Web Analytics"
+          referrerPolicy="no-referrer-when-downgrade"></a></div>
+  </noscript>
+  <!-- End of Statcounter Code -->
+  <!-- End of Statcounter Code -->
   <!-- End of Statcounter Code -->
 
 </body>
